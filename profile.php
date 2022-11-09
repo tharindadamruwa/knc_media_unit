@@ -13,7 +13,7 @@ $admnum = $_GET['ano'];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tharinda | KNC Media Unit</title>
+    <title><?php echo $fname; ?>| KNC Media Unit</title>
 
     <link rel="stylesheet" href="css/profile.css">
     <link rel="shortcut icon" href="img/16676189220471-modified_70.png" type="png">
