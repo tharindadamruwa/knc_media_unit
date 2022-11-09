@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+body {
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(126, 0, 0);
+    height: 70px;
+    font-weight: 600;
+}
+
+.continer {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 40px 50px;
+    border-radius: 4px;
+    width: 400px;
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
+    background: #fff;
+}
+
+.mem {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+    color: rgb(126, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(126, 0, 0);
+    padding-bottom: 10px;
+}
+
+.porfile_photo {
+    width: 180px;
+}
+
+.porfile_photo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.534);
+    margin: 20px 0 20px 0;
+}
+
+.d-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+
+.details {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(126, 0, 0);
+}
+
+@media (max-width:770px) {
+    .continer {
+        width: 400px;
+        padding: 30px 35px;
+    }
+}
+
+@media (max-width:445px) {
+    .continer {
+        width: 350px;
+        padding: 30px 35px;
+    }
+}
+
+@media (max-width:400px) {
+    .continer {
+        width: 325px;
+        padding: 20px 25px;
+    }
+}
