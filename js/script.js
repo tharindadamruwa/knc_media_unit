@@ -21,6 +21,12 @@ $(document).ready(function () {
                     var fn = document.querySelector("#fname").value;
                     var ln = document.querySelector("#lname").value;
 
+                    document.querySelector(".load_sec").scrollIntoView({
+
+                        behavior: "smooth"
+
+                    });
+
                     var qr_n = fn + ln;
 
                     window.location.replace("qr.php?img=" + qr_n);
@@ -31,7 +37,7 @@ $(document).ready(function () {
                     $(".error-txt").css("display", "block");
 
                     document.querySelector(".loading").style.display = "none";
-                    document.querySelector(".error-txt").scrollIntoView({
+                    document.querySelector(".knc_logo").scrollIntoView({
 
                         behavior: "smooth"
 
