@@ -21,7 +21,7 @@ $(document).ready(function () {
                     var fn = document.querySelector("#fname").value;
                     var ln = document.querySelector("#lname").value;
 
-                    document.querySelector(".load_sec").scrollIntoView({
+                    document.querySelector(".loading").scrollIntoView({
 
                         behavior: "smooth"
 
