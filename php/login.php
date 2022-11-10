@@ -19,7 +19,7 @@ if (!empty($fname) and !empty($lname) and !empty($grade) and !empty($addmition) 
     $url_grade= urlencode($grade);
     $url_addmition = urlencode($addmition);
 
-    $link = "kncmediaunit.rf.gd/profile.php?img={$up_img_name}&fname={$url_fname}&lname={$url_lname}&grade={$url_grade}&ano={$url_addmition}";
+    $link = "https://kncmediaunit.rf.gd/profile.php?img={$up_img_name}&fname={$url_fname}&lname={$url_lname}&grade={$url_grade}&ano={$url_addmition}";
 
     include "phpqrcode/qrlib.php";
 
