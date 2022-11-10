@@ -7,7 +7,7 @@ $(document).ready(function () {
         document.querySelector(".loading").style.display = "flex";
 
         var formData = $(".login_container").serialize();
-        
+
         $.post(
 
             "php/login.php",
@@ -17,7 +17,7 @@ $(document).ready(function () {
                 if (data == "Success" && status == "success") {
 
                     $(".cp_img").css("display", "none");
-                    
+
                     var fn = document.querySelector("#fname").value;
                     var ln = document.querySelector("#lname").value;
 
@@ -31,6 +31,12 @@ $(document).ready(function () {
                     $(".error-txt").css("display", "block");
 
                     document.querySelector(".loading").style.display = "none";
+                    document.querySelector(".error-txt").scrollIntoView({
+
+                        behavior: "smooth"
+
+                    });
+
 
                 }
 
