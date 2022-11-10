@@ -4,6 +4,8 @@ $(document).ready(function () {
 
         e.preventDefault();
 
+        document.querySelector(".loading").style.display = "flex";
+
         var formData = $(".login_container").serialize();
         
         $.post(
@@ -27,6 +29,8 @@ $(document).ready(function () {
 
                     $(".error-txt").text(data);
                     $(".error-txt").css("display", "block");
+
+                    document.querySelector(".loading").style.display = "none";
 
                 }
 

@@ -79,6 +79,11 @@
                 <input type="submit" name="submit" id="submit">
 
             </div>
+            <div class="load_sec">
+
+                <div class="loading"></div>
+
+            </div>
 
         </form>
 
